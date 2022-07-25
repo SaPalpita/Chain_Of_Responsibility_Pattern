@@ -9,7 +9,7 @@ public class Discount extends BillHandler{
             return bill.getAmmount();
         }
         else{
-            return successor.applyDeduction(bill);
+            return bill.getDeduction();
         }
     }
 
