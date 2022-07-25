@@ -12,8 +12,6 @@ public class BillOutput {
 
         Bill bill2=new Bill(2,15000);
         System.out.println(offer.applyDeduction(bill2));
-
-
     }
 
     }
